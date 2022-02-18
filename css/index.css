@@ -1,0 +1,234 @@
+.big_title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 32px;
+    margin-top: 180px;
+}
+
+.big_title_v2{
+    margin-bottom: 0px;
+}
+
+
+@media (max-width: 576px){
+    .big_title{
+        margin-top: 20px;
+    }
+  }
+
+.intro_title{
+    margin-top: 150px;
+    font-size: 30px;
+}
+
+.intro_subtitle{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+.intro_banner{
+    background-color: #F5F5F5;
+    border-radius: 0% 0% 0% 20%;
+    height: 500px;
+}
+
+
+@media (max-width: 576px){
+    .intro_banner{
+        height: 250px;
+    }
+  }
+
+.intro_banner div{
+    padding-top: 40px;
+}
+
+.intro_banner img{
+   max-width: 80%;
+   display: block;
+   margin: auto;
+}
+
+.intro_content{
+    line-height: 1.8;
+}
+
+.view_button{
+    background-color: #72C9F3;
+    display: inline;
+    padding: 8px 80px;
+    border-radius: 20px;
+    color: white;
+    font-size: 14px;
+}
+
+.view_button:hover{
+    background-color: #6AA0DB;
+    color: white;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    .intro_banner img{
+        margin-top: 120px;
+    }
+    .intro_banner{
+        height: 450px;
+    }
+  }
+
+@media (max-width: 992px){
+    .intro_banner{
+        background-color: white;
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 768px){
+    .intro_title{
+        margin-top: 40px;
+    }
+}
+
+/* what I do區域 */
+.skill_container{
+    margin-bottom: 32px;
+}
+
+.skill{
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.skill_sub{
+    font-size: 14px;
+}
+
+.skill_content{
+    line-height: 1.8;
+}
+
+/* 專案區 */
+
+.project_out_container{
+    margin-bottom: 200px;
+}
+
+@media (max-width: 576px){
+    .project_out_container{
+        margin-bottom: 120px;
+    }
+  }
+
+.projcet_container{
+    padding-top: 100px;
+    margin-bottom: 40px;
+}
+
+
+.project_number{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.project_title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.project_tag{
+    display: flex;
+}
+
+.project_tag p{
+    background-color: #F5F5F5;
+    padding: 0 8px;
+    margin-right: 8px;
+}
+
+.project_content{
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.project_button{
+    background-color: #1C2A45;
+    color: white;
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 8px 80px;
+}
+
+.project_button:hover{
+    background-color: #6AA0DB;
+    color: white;
+}
+
+@media (max-width: 1200px){
+    .projcet_container{
+        padding-top: 20px;
+    }
+  }
+
+
+  /* 其他作品 */
+.more_title{
+    text-align: center;
+    font-size: 14px;
+    line-height: 2.5;
+    margin-bottom: 40px;
+}
+
+.more_cover{
+    transform: scale(1);
+    transition: all 0.2 ease-in-out;
+}
+
+.more_cover:hover{
+    transform: scale(0.98);
+}
+
+/* 關於我 */
+.aboutme_container{
+    background-color: #F5F5F5;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.avater{
+    position: absolute;
+    top: -15%;
+    left: 24%;
+}
+
+.aboutme_title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 140px;
+}
+
+.contact_content{
+    line-height: 1.8;
+}
+
+.contact_title{
+    font-weight: bold;
+    margin: 30px 0 8px 0;
+}
+
+.contact_mail,.contact_name{
+    margin-bottom: 4px;
+}
+
+.line{
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+}

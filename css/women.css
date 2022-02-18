@@ -1,0 +1,132 @@
+h1,h2{
+    font-family: 'Noto Serif TC', serif;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    line-height: 1.8;
+}
+
+.women_container{
+    margin-top: 200px;
+}
+
+.women_project_name_container{
+    margin-top: 20px;
+}
+
+.women_projcet_subtitle{
+    font-size: 16px;
+    line-height: 1.8;
+    position: relative;
+}
+
+.women_projcet_subtitle::after{
+    content: "";
+    height: 1px;
+    width: 80px;
+    background-color: #5C5C5C;
+    position: absolute;
+    left: 140px;
+    top: 20px;
+}
+
+.women_project_title{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 576px){
+    .women_project_title{
+        font-size: 24px;
+    }
+
+    .women_projcet_subtitle{
+        font-size: 16px;
+    }
+  }
+
+.women_view_button {
+    background-color: #BDB07B;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 8px 60px;
+    color: white;
+    text-align: center;
+
+}
+
+.women_view_button:hover{
+    color: white;
+    background-color: #C0A94B;
+}
+
+@media (max-width: 992px){
+    .women_banner{
+        margin-top: 40px;
+    }
+  }
+
+  /* 說明區 */
+
+  .women_about{
+      margin-top: 100px;
+  }
+
+  .women_about h1,.women_challenge h1{
+      font-size: 30px;
+      font-weight: bold;
+  }
+
+  .line{
+      height: 1px;
+      background-color: #BDB07B;
+
+  }
+
+  .women_challenge{
+      margin-top: 80px;
+  }
+
+  .women_challenge_subtitle{
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 8px;
+  }
+
+  .point_item{
+    line-height: 1.8;
+    padding-left: 20px;
+}
+  .point,.goal,.women_about p{
+    margin-top: 14px;
+  }
+
+  @media (max-width: 992px){
+    .goal{
+        margin-top: 32px;
+    }
+  }
+
+  .old_page{
+    margin-top: 80px;
+    margin-bottom: 0;
+    color: #5C5C5C;
+  }
+
+  .schedule_titiel{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 250px;
+    margin-bottom: 40px;
+  }
+ 
+  .women_pages_title{
+      margin-top: 250px;
+      margin-bottom: 20px;
+      font-size: 30px;
+      font-weight: bold;
+  }

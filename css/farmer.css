@@ -1,0 +1,62 @@
+h1,h2{
+    font-family: 'Noto Serif TC', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.farmer_banner{
+    margin-top: 130px;
+}
+
+.farmer_project_name{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.farmer_project_subtitle{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.farmer_view_button {
+    background-color: #BDB07B;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 8px 0;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.farmer_view_button:hover{
+    color: white;
+    background-color: #C0A94B;
+}
+
+.farmer_about_container,.logotype_container,.page_container{
+  margin-top: 200px;
+}
+
+
+.farmer_title{
+    font-size: 60px;
+    color: #3E3214;
+    margin-top: 20px;
+}
+.farmer_brand,.farmer_goal,.farmer_charge,.farmer_design{
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.farmer_charge_item{
+    margin-bottom: 0px;
+    line-height: 1.8;
+}
+
+.farmer_design{
+    margin-top: 52px;
+}
+
+

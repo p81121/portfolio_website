@@ -1,0 +1,186 @@
+*{
+    font-family: 'Noto Sans TC', sans-serif;
+    box-sizing: border-box;  
+    color: #1E1E1E;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+
+a{
+    text-decoration: none;
+    color: #1E1E1E;
+}
+
+/* 導覽列 */
+
+.nav_container{
+    position: sticky;
+    top: 0;
+    height: 75px;
+    
+}
+
+.logo_container{
+    background-color: white;
+    display: flex;
+}
+
+.logo_text{
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.logo{
+    width:82px;
+    margin-right: 8px;
+    margin-top: 8px;
+}
+
+
+.nav_tab{
+    font-size: 14px;
+    align-items: flex-end;
+    justify-content:flex-end;
+    display: flex;
+    background-color: #F5F5F5;
+}
+
+@media (max-width: 992px){
+    .logo_container{
+        background-color: #F5F5F5;
+        padding: 10px 0;
+        padding-left: 8px;
+    }
+    .nav_tab{
+        padding: 10px 0;
+    }
+
+  }
+
+@media (max-width: 768px){
+    .nav_tab{
+        display: none;
+    }
+  }
+
+.nav_tab li{
+    margin: 0 16px;
+    line-height: 40px;
+    cursor: pointer;
+    list-style: none;
+}
+
+.nav_tab li:hover{
+    color: #72C9F3;
+}
+
+.nav_tab a{
+    line-height: 40px;
+    margin: 0 16px;
+}
+
+.nav_tab a:hover{
+    color: #72C9F3;
+}
+
+.nav_tab a:hover .fa-cloud-arrow-down{
+    color: #72C9F3;
+}
+
+.burgar_btn{
+    display: none;
+    padding-top: 20px;
+}
+
+.fa-bars{
+    font-size: 30px;
+}
+
+
+.rwd_menu{
+    background-color: rgba(245,245,245,.9);
+    list-style: none;
+    width: 100%;
+    transform: translate(0%, -150%);
+    transition: transform 1s ease-in-out;
+    z-index: -1;
+}
+
+.rwd_menu.-open{
+    transform: translate(0%, 0%);
+}
+
+.rwd_menu li{
+    text-align: center;
+}
+
+.rwd_menu li ,.rwd_menu li a{
+    line-height: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+@media (max-width: 768px){
+    .burgar_btn{
+        background-color: #F5F5F5;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .rwd_menu{
+        display: block;
+    }
+
+  }
+
+  /* next */
+.next_title{
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.project_tag{
+    display: flex;
+}
+
+.project_tag p{
+    background-color: #F5F5F5;
+    padding: 0 8px;
+    margin-right: 8px;
+}
+
+.more_cover{
+    transform: scale(1);
+    transition: all 0.2 ease-in-out;
+}
+
+.more_cover:hover{
+    transform: scale(0.98);
+}
+
+
+.copyright{
+    line-height: 40px;
+    margin-top: 200px;
+    color: #5C5C5C;
+    text-align: end;
+    background-color: #F5F5F5;
+}
+
+
+
+
