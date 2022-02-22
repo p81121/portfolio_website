@@ -12,7 +12,7 @@
 
 @media (max-width: 576px){
     .big_title{
-        padding-top: 20px;
+        padding-top: 120px;
     }
   }
 
@@ -201,6 +201,12 @@
     padding-bottom: 50px;
     position: relative;
 }
+
+@media (max-width: 768px){
+    #aboutme{
+        padding-top: 50px;
+    }
+  }
 
 .avater{
     position: absolute;
