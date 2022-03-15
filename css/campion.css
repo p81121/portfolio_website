@@ -31,7 +31,7 @@ p{
     margin-top: 40px;
 }
 
-.campion_info h1,.campion_goal h1,.campion_time h1,.campion_diagram h1,.campion_girds h1,.campion_pages h1,.campion_target h1{
+.campion_info h1,.campion_goal h1,.campion_time h1,.campion_diagram h1,.campion_girds h1,.campion_pages h1,.campion_target h1,.design h1{
     margin-bottom: 16px;
     font-size: 30px;
 }
@@ -50,9 +50,19 @@ p{
     padding-left: 16px;
 }
 
+.design{
+    margin-top: 100px;
+    line-height: 1.8;
+}
+
+.design ul li{
+    margin-left: 28px;
+    line-height: 1.8;
+}
+
 .campion_charge li{
     list-style: none;
-    margin-bottom: 12px;
+    margin-bottom: 14px;
 }
 
 .campion_charge ul{
@@ -61,7 +71,7 @@ p{
 }
 
 .campion_time{
-    margin-top: 100px;
+    margin-top: 150px;
     padding-left: 16px;
 }
 
